@@ -1,2 +1,2 @@
-# firefox-addon-online-lab
+# Firefox Addon - Online Lab
 List of online resources for developers
