@@ -50,7 +50,7 @@ function initialize() {
           }
         }
       } else {
-        menuContainer.innerHTML = '<b>Error loading page:</b> Status code ' + xhr.status;
+        menuContainer.innerText = 'Error loading page: Status code ' + xhr.status;
       }
     }
   }
