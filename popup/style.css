@@ -1,0 +1,114 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0;
+    font-family: Verdana,Geneva,sans-serif;
+    font-size: 12px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    min-width: 300px;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+#menu {
+    padding: 2px;
+    padding-bottom: 25px;
+    padding-top: 38px;
+}
+
+#header {
+    padding: 1px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 30px;
+    width: 100%;
+    border-bottom: solid 1px lightgray;
+    background-color: #99CCFF;
+    text-align: center;
+    cursor: default;
+    font-weight: bold;
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+#header img {
+   vertical-align: middle;
+}
+
+#gotoGitHub {
+    border-top: solid 1px lightgray;
+    color: #0366d6;
+    padding: 1px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #EEE;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:20px;
+    width:100%;
+}
+
+#gotoGitHub:hover {
+    text-decoration: underline;
+}
+
+.emptyList {
+    color: gray;
+    text-align: center
+}
+
+.buttonTitle {
+    font-weight: bold;
+    padding: 1px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.buttonTitle:before {
+    content: '-';
+    display: inline-block;
+    width: 14px;
+    font-family: Courier New, Courier, monospace;
+    font-size: 15px;
+    color: #99CCFF;
+    padding-left: 3px;
+}
+
+.buttonTitle:hover:before {
+    color: #0366d6;
+}
+
+.buttonLink {
+    color: #0366d6;
+}
+
+.buttonClosed .buttonTitle:before {
+    content: '+';
+}
+
+.buttonTitle:hover {
+    background-color: lightgray;
+}
+
+.buttonClosed .button {
+    display: none;
+}
+
+.button {
+    font-weight: normal;
+    padding: 1px;
+    cursor: pointer;
+    padding-left: 28px;
+    border-top: 1px solid #CCDDFF;
+    padding-bottom: 4px;
+}
+
+.button:hover {
+    background-color: #CCDDFF;
+}
